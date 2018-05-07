@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0736107C2092571800A21FEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0736107B2092571800A21FEA /* AppDelegate.swift */; };
+		073610812092571800A21FEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0736107F2092571800A21FEA /* Main.storyboard */; };
+		073610842092571800A21FEA /* Tempest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 073610822092571800A21FEA /* Tempest.xcdatamodeld */; };
+		073610862092571800A21FEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 073610852092571800A21FEA /* Assets.xcassets */; };
+		073610892092571800A21FEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 073610872092571800A21FEA /* LaunchScreen.storyboard */; };
+		078322C52097A51E00AC858E /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078322C42097A51E00AC858E /* ApiManager.swift */; };
+		078322C72098DC3D00AC858E /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078322C62098DC3D00AC858E /* WeatherData.swift */; };
+		07C399E62098F46300582E9E /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C399E52098F46300582E9E /* HomeScreenViewController.swift */; };
+		07C399E82098F75E00582E9E /* ApiKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C399E72098F75E00582E9E /* ApiKeys.swift */; };
+		07C399EC209A54B000582E9E /* GeocodingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C399EB209A54B000582E9E /* GeocodingData.swift */; };
+		07C399EE209B867800582E9E /* LocationSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C399ED209B867800582E9E /* LocationSearchViewController.swift */; };
+		0D46D063A4CC189A02867487 /* Pods_Tempest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40466033BEF4DDEA12593EC1 /* Pods_Tempest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		073610782092571800A21FEA /* Tempest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tempest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0736107B2092571800A21FEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		073610802092571800A21FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		073610832092571800A21FEA /* Tempest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tempest.xcdatamodel; sourceTree = "<group>"; };
+		073610852092571800A21FEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		073610882092571800A21FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0736108A2092571800A21FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		078322C42097A51E00AC858E /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		078322C62098DC3D00AC858E /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		07C399E52098F46300582E9E /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		07C399E72098F75E00582E9E /* ApiKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiKeys.swift; sourceTree = "<group>"; };
+		07C399EB209A54B000582E9E /* GeocodingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocodingData.swift; sourceTree = "<group>"; };
+		07C399ED209B867800582E9E /* LocationSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchViewController.swift; sourceTree = "<group>"; };
+		40466033BEF4DDEA12593EC1 /* Pods_Tempest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tempest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F95E4FCB4A8D850DA90E50F /* Pods-Tempest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tempest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tempest/Pods-Tempest.debug.xcconfig"; sourceTree = "<group>"; };
+		BF8AEFD9F4D9E8651159A67D /* Pods-Tempest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tempest.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tempest/Pods-Tempest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		073610752092571800A21FEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D46D063A4CC189A02867487 /* Pods_Tempest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		070DABF72093B8D600FB42BA /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				078322C62098DC3D00AC858E /* WeatherData.swift */,
+				07C399EB209A54B000582E9E /* GeocodingData.swift */,
+			);
+			path = "Data Models";
+			sourceTree = "<group>";
+		};
+		070DABF92093B91000FB42BA /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				07C399E52098F46300582E9E /* HomeScreenViewController.swift */,
+				07C399ED209B867800582E9E /* LocationSearchViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		070DABFA2093B96A00FB42BA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				078322C42097A51E00AC858E /* ApiManager.swift */,
+				07C399E72098F75E00582E9E /* ApiKeys.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0736106F2092571800A21FEA = {
+			isa = PBXGroup;
+			children = (
+				0736107A2092571800A21FEA /* Tempest */,
+				073610792092571800A21FEA /* Products */,
+				A00925503DD79C158B50B079 /* Pods */,
+				8B9E49581F76CAAD80B7C6A6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		073610792092571800A21FEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				073610782092571800A21FEA /* Tempest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0736107A2092571800A21FEA /* Tempest */ = {
+			isa = PBXGroup;
+			children = (
+				078322C120978B7500AC858E /* Storyboards */,
+				070DABFA2093B96A00FB42BA /* Utilities */,
+				070DABF92093B91000FB42BA /* View Controllers */,
+				070DABF72093B8D600FB42BA /* Data Models */,
+				073610852092571800A21FEA /* Assets.xcassets */,
+				0736107B2092571800A21FEA /* AppDelegate.swift */,
+				0736108A2092571800A21FEA /* Info.plist */,
+				073610822092571800A21FEA /* Tempest.xcdatamodeld */,
+			);
+			path = Tempest;
+			sourceTree = "<group>";
+		};
+		078322C120978B7500AC858E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				073610872092571800A21FEA /* LaunchScreen.storyboard */,
+				0736107F2092571800A21FEA /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8B9E49581F76CAAD80B7C6A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40466033BEF4DDEA12593EC1 /* Pods_Tempest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A00925503DD79C158B50B079 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F95E4FCB4A8D850DA90E50F /* Pods-Tempest.debug.xcconfig */,
+				BF8AEFD9F4D9E8651159A67D /* Pods-Tempest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		073610772092571800A21FEA /* Tempest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0736108D2092571800A21FEA /* Build configuration list for PBXNativeTarget "Tempest" */;
+			buildPhases = (
+				52FAB82B2B1C62429727DC0E /* [CP] Check Pods Manifest.lock */,
+				073610742092571800A21FEA /* Sources */,
+				073610752092571800A21FEA /* Frameworks */,
+				073610762092571800A21FEA /* Resources */,
+				F316C7D952C7CEBD5CD31A8E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tempest;
+			productName = Tempest;
+			productReference = 073610782092571800A21FEA /* Tempest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		073610702092571800A21FEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Devan Allara";
+				TargetAttributes = {
+					073610772092571800A21FEA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 073610732092571800A21FEA /* Build configuration list for PBXProject "Tempest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0736106F2092571800A21FEA;
+			productRefGroup = 073610792092571800A21FEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				073610772092571800A21FEA /* Tempest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		073610762092571800A21FEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				073610892092571800A21FEA /* LaunchScreen.storyboard in Resources */,
+				073610862092571800A21FEA /* Assets.xcassets in Resources */,
+				073610812092571800A21FEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52FAB82B2B1C62429727DC0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tempest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F316C7D952C7CEBD5CD31A8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tempest/Pods-Tempest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tempest/Pods-Tempest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		073610742092571800A21FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078322C52097A51E00AC858E /* ApiManager.swift in Sources */,
+				078322C72098DC3D00AC858E /* WeatherData.swift in Sources */,
+				07C399E82098F75E00582E9E /* ApiKeys.swift in Sources */,
+				073610842092571800A21FEA /* Tempest.xcdatamodeld in Sources */,
+				07C399EC209A54B000582E9E /* GeocodingData.swift in Sources */,
+				0736107C2092571800A21FEA /* AppDelegate.swift in Sources */,
+				07C399E62098F46300582E9E /* HomeScreenViewController.swift in Sources */,
+				07C399EE209B867800582E9E /* LocationSearchViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0736107F2092571800A21FEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				073610802092571800A21FEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		073610872092571800A21FEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				073610882092571800A21FEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0736108B2092571800A21FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0736108C2092571800A21FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0736108E2092571800A21FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F95E4FCB4A8D850DA90E50F /* Pods-Tempest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W9QV58MHM6;
+				INFOPLIST_FILE = Tempest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Devan.Tempest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0736108F2092571800A21FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF8AEFD9F4D9E8651159A67D /* Pods-Tempest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W9QV58MHM6;
+				INFOPLIST_FILE = Tempest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Devan.Tempest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		073610732092571800A21FEA /* Build configuration list for PBXProject "Tempest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0736108B2092571800A21FEA /* Debug */,
+				0736108C2092571800A21FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0736108D2092571800A21FEA /* Build configuration list for PBXNativeTarget "Tempest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0736108E2092571800A21FEA /* Debug */,
+				0736108F2092571800A21FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		073610822092571800A21FEA /* Tempest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				073610832092571800A21FEA /* Tempest.xcdatamodel */,
+			);
+			currentVersion = 073610832092571800A21FEA /* Tempest.xcdatamodel */;
+			path = Tempest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 073610702092571800A21FEA /* Project object */;
+}
